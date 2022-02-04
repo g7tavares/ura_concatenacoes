@@ -916,6 +916,10 @@ Copyright 2004-2019 Avaya Inc.
     
     
     
+    <context-param>
+        <param-name>english.phraseset.Concatenacoes.urlbase</param-name>
+        <param-value>frases/</param-value>
+    </context-param>
     <servlet id="avayadefaultdisconnecthandler-servlet">
                                                                                                                         
         
@@ -1541,16 +1545,7 @@ Copyright 2004-2019 Avaya Inc.
                 
     
     
-    <servlet id="SAGE-callflow-servlet_main_29">
-                        
-        
-        <servlet-name>Valores</servlet-name>
-                        
-        
-        <servlet-class>flow.Valores</servlet-class>
-                    
     
-    </servlet>
             
     
     <servlet id="SAGE-callflow-servlet_Data_1">
@@ -1569,18 +1564,63 @@ Copyright 2004-2019 Avaya Inc.
         <servlet-name>Data-End</servlet-name>
         <servlet-class>flow.subflow.Data.End</servlet-class>
     </servlet>
-    <servlet id="SAGE-callflow-servlet_main_35">
-        <servlet-name>Data2</servlet-name>
-        <servlet-class>flow.Data2</servlet-class>
-    </servlet>
+    
     <servlet id="SAGE-callflow-servlet_Data_15">
         <servlet-name>Data-AnnConcatenacaoData</servlet-name>
         <servlet-class>flow.subflow.Data.AnnConcatenacaoData</servlet-class>
     </servlet>
     
     <servlet id="SAGE-callflow-servlet_main_49">
-        <servlet-name>Concat</servlet-name>
-        <servlet-class>flow.Concat</servlet-class>
+        <servlet-name>FPD</servlet-name>
+        <servlet-class>flow.FPD</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_FPD_1">
+        <servlet-name>FPD-Begin</servlet-name>
+        <servlet-class>flow.subflow.FPD.Begin</servlet-class>
+    </servlet>
+    
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_FPD_Parcelamento_1">
+        <servlet-name>FPD_Parcelamento-Begin</servlet-name>
+        <servlet-class>flow.subflow.FPD_Parcelamento.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_FPD_Parcelamento_4">
+        <servlet-name>FPD_Parcelamento-SvlFPD_Parcelamento</servlet-name>
+        <servlet-class>flow.subflow.FPD_Parcelamento.SvlFPD_Parcelamento</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_FPD_Parcelamento_7">
+        <servlet-name>FPD_Parcelamento-AnnConcatenacao</servlet-name>
+        <servlet-class>flow.subflow.FPD_Parcelamento.AnnConcatenacao</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_FPD_Parcelamento_11">
+        <servlet-name>FPD_Parcelamento-End</servlet-name>
+        <servlet-class>flow.subflow.FPD_Parcelamento.End</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_FPD_Parcelamento_12">
+        <servlet-name>FPD_Parcelamento-DfnConcatenacao</servlet-name>
+        <servlet-class>flow.subflow.FPD_Parcelamento.DfnConcatenacao</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_57">
+        <servlet-name>FPD_Parcelamento</servlet-name>
+        <servlet-class>flow.FPD_Parcelamento</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_FPD_73">
+        <servlet-name>FPD-SvlFPD</servlet-name>
+        <servlet-class>flow.subflow.FPD.SvlFPD</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_FPD_99">
+        <servlet-name>FPD-End</servlet-name>
+        <servlet-class>flow.subflow.FPD.End</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_FPD_100">
+        <servlet-name>FPD-DfnConcatenacao</servlet-name>
+        <servlet-class>flow.subflow.FPD.DfnConcatenacao</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_FPD_95">
+        <servlet-name>FPD-AnnConcatenacao</servlet-name>
+        <servlet-class>flow.subflow.FPD.AnnConcatenacao</servlet-class>
     </servlet>
     <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
                                                                                                                         
@@ -2195,16 +2235,7 @@ Copyright 2004-2019 Avaya Inc.
     </servlet-mapping>
             
     
-    <servlet-mapping id="SAGE-callflow-servletmapping_main_29">
-                        
-        
-        <servlet-name>Valores</servlet-name>
-                        
-        
-        <url-pattern>/Valores</url-pattern>
-                    
     
-    </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_Data_1">
         <servlet-name>Data-Begin</servlet-name>
         <url-pattern>/Data-Begin</url-pattern>
@@ -2221,17 +2252,62 @@ Copyright 2004-2019 Avaya Inc.
         <servlet-name>Data-End</servlet-name>
         <url-pattern>/Data-End</url-pattern>
     </servlet-mapping>
-    <servlet-mapping id="SAGE-callflow-servletmapping_main_35">
-        <servlet-name>Data2</servlet-name>
-        <url-pattern>/Data2</url-pattern>
-    </servlet-mapping>
+    
     <servlet-mapping id="SAGE-callflow-servletmapping_Data_15">
         <servlet-name>Data-AnnConcatenacaoData</servlet-name>
         <url-pattern>/Data-AnnConcatenacaoData</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_main_49">
-        <servlet-name>Concat</servlet-name>
-        <url-pattern>/Concat</url-pattern>
+        <servlet-name>FPD</servlet-name>
+        <url-pattern>/FPD</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_FPD_1">
+        <servlet-name>FPD-Begin</servlet-name>
+        <url-pattern>/FPD-Begin</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_FPD_Parcelamento_1">
+        <servlet-name>FPD_Parcelamento-Begin</servlet-name>
+        <url-pattern>/FPD_Parcelamento-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_FPD_Parcelamento_4">
+        <servlet-name>FPD_Parcelamento-SvlFPD_Parcelamento</servlet-name>
+        <url-pattern>/FPD_Parcelamento-SvlFPD_Parcelamento</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_FPD_Parcelamento_7">
+        <servlet-name>FPD_Parcelamento-AnnConcatenacao</servlet-name>
+        <url-pattern>/FPD_Parcelamento-AnnConcatenacao</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_FPD_Parcelamento_11">
+        <servlet-name>FPD_Parcelamento-End</servlet-name>
+        <url-pattern>/FPD_Parcelamento-End</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_FPD_Parcelamento_12">
+        <servlet-name>FPD_Parcelamento-DfnConcatenacao</servlet-name>
+        <url-pattern>/FPD_Parcelamento-DfnConcatenacao</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_57">
+        <servlet-name>FPD_Parcelamento</servlet-name>
+        <url-pattern>/FPD_Parcelamento</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_FPD_73">
+        <servlet-name>FPD-SvlFPD</servlet-name>
+        <url-pattern>/FPD-SvlFPD</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_FPD_99">
+        <servlet-name>FPD-End</servlet-name>
+        <url-pattern>/FPD-End</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_FPD_100">
+        <servlet-name>FPD-DfnConcatenacao</servlet-name>
+        <url-pattern>/FPD-DfnConcatenacao</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_FPD_95">
+        <servlet-name>FPD-AnnConcatenacao</servlet-name>
+        <url-pattern>/FPD-AnnConcatenacao</url-pattern>
     </servlet-mapping>
                                                             
 
