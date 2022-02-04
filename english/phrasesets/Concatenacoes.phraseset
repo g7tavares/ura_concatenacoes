@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<phraseset audiolocation="internal" filename="Concatenacoes" version="1.0">
+    <phrase version="1.0">
+        <displayname>M0284A</displayname>
+        <talent/>
+        <phrasetext>Ok, perai que eu to vendo aqui que a sua fatura no valor de</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>M0284A.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>M0284B</displayname>
+        <talent/>
+        <phrasetext>com vencimento dia</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>M0284B.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>M0284C</displayname>
+        <talent/>
+        <phrasetext>está em aberto, por isso que você está sem sinal SKY, como é a sua primeira fatura pode ter havido algum problema ou você não recebeu, mas a gente consegue resolver rapidinho e restaurar o seu sinal completo, caso queira pagar agora mesmo com o seu cartão de crédito. Pra pagar agora, é só apertar 1. Se não é o 2.</phrasetext>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>M0284C.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>49Reais_NF</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>49Reais_NF.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>100e_NF</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>100e_NF.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>e85centavos_F</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>e85centavos_F.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>27_Novembro_F</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>27_Novembro_F.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>Fpd_a</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>Fpd_a.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>Fpd_b</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>Fpd_b.wav</audiofile>
+    </phrase>
+    <phrase version="1.0">
+        <displayname>Fpd_c</displayname>
+        <talent/>
+        <phrasetext/>
+        <basetext/>
+        <searchkeywords/>
+        <comments/>
+        <audiofile>Fpd_c.wav</audiofile>
+    </phrase>
+</phraseset>

@@ -1,0 +1,2251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+This XML descriptor is automatically generated and managed by the
+application development environment.  While manual updates to this 
+file may be preserved, it is best to manage this file through the application development environment tool.
+
+Copyright 2004-2019 Avaya Inc.
+--><!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app id="WebApp_ID">
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <context-param>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-name>sage.startlanguage</param-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-value>english</param-value>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <description>The starting language for the application.</description>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </context-param>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <context-param>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-name>sage.ic.throwexceptions</param-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-value>true</param-value>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <description>IC Throw Runtime Exception on Error{true|false}</description>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </context-param>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <context-param>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-name>sage.cti.autoinvoke.callinfo</param-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-value>true</param-value>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <description>CTI Auto invoke CallInfo upon app start{true|false}</description>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </context-param>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <context-param>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-name>runtime-ASR</param-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-value>Desktop Microsoft Speech SAPI</param-value>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <description>Runtime ASR {SRGS-Literals|SRGS-SISR|Nuance OSR|IBM|...}</description>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </context-param>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <context-param>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-name>runtime-SSML</param-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-value>true</param-value>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <description>Runtime SSML Generation {true|false} - "true" enables SSML generation, "false" disables.</description>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </context-param>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <context-param>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-name>runtime-nature</param-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-value>speech</param-value>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <description>Application nature, speech or message</description>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </context-param>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <context-param>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-name>runtime-Platform</param-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-value>Desktop</param-value>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <description>Runtime Platform {Desktop|Experience Portal|Other|IR|MPS}</description>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </context-param>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <context-param>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-name>runtime-VXML-Compatibility</param-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-value>2.1</param-value>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <description>2.1 + IVVR, 2.1 Allows VXML 2.1 extensions, 2.0 Uses VXML 2.0 Only</description>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </context-param>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <context-param>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-name>runtime-DTMF-Native</param-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-value>LOCAL_SRGS_LITERALS</param-value>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <description>(NATIVE|LOCAL_SRGS_SISR|LOCAL_SRGS_LITERALS, NATIVE means DTMF Grammars are in native asr format.</description>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </context-param>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <context-param>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-name>allow-html-mode</param-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-value>false</param-value>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <description>Allows html mode in speech applications.</description>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </context-param>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <context-param>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-name>CollectionSeparator</param-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-value>|</param-value>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <description>Collection Separator Char</description>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </context-param>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <context-param>
+                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-name>grammar-caching</param-name>
+                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <param-value>none</param-value>
+                                                                                                                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <description>Grammar caching mode, none=no caching, default=system default or property setting</description>
+                                                                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </context-param>
+                                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet id="avayadefaultdisconnecthandler-servlet">
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-class>com.avaya.sce.runtime.DefaultDisconnect</servlet-class>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </servlet>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet id="avayadefaultexithandler-servlet">
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-class>com.avaya.sce.runtime.DefaultExit</servlet-class>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </servlet>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet id="avayasessiontermination-servlet">
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-class>com.avaya.sce.runtime.AvayaSessionTerminationServlet</servlet-class>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </servlet>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet id="CheckAdminVariableInfo-servlet">
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-name>CheckAdminVariableInfoServlet</servlet-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-class>com.avaya.sce.runtimecommon.CheckAdminVariableInfo</servlet-class>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </servlet>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet id="avayareturnerrorhandler-servlet">
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorHandlerServlet</servlet-class>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </servlet>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet id="avayareturnerrorthrow-servlet">
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-class>com.avaya.sce.runtime.ReturnErrorThrowServlet</servlet-class>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </servlet>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_1">
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-name>AppRoot</servlet-name>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-class>flow.AppRoot</servlet-class>
+                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </servlet>
+                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_12">
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-name>AppEnd</servlet-name>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-class>flow.AppEnd</servlet-class>
+                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </servlet>
+                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_0">
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-name>Start</servlet-name>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-class>flow.Start</servlet-class>
+                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </servlet>
+                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet id="SAGE-callflow-servlet_Valores_32">
+                                
+        
+        
+        <servlet-name>Valores-AnnConcatenacao</servlet-name>
+                                
+        
+        
+        <servlet-class>flow.subflow.Valores.AnnConcatenacao</servlet-class>
+                            
+    
+    
+    </servlet>
+                
+    
+    
+    <servlet id="SAGE-callflow-servlet_Valores_1">
+                                
+        
+        
+        <servlet-name>Valores-Begin</servlet-name>
+                                
+        
+        
+        <servlet-class>flow.subflow.Valores.Begin</servlet-class>
+                            
+    
+    
+    </servlet>
+                
+    
+    
+    <servlet id="SAGE-callflow-servlet_Valores_49">
+                                
+        
+        
+        <servlet-name>Valores-End</servlet-name>
+                                
+        
+        
+        <servlet-class>flow.subflow.Valores.End</servlet-class>
+                            
+    
+    
+    </servlet>
+                
+    
+    
+    <servlet id="SAGE-callflow-servlet_Valores_36">
+                                
+        
+        
+        <servlet-name>Valores-DfnConcatenacao</servlet-name>
+                                
+        
+        
+        <servlet-class>flow.subflow.Valores.DfnConcatenacao</servlet-class>
+                            
+    
+    
+    </servlet>
+                
+    
+    
+    <servlet id="SAGE-callflow-servlet_Valores_29">
+                                
+        
+        
+        <servlet-name>Valores-SvlConcatenacaoF</servlet-name>
+                                
+        
+        
+        <servlet-class>flow.subflow.Valores.SvlConcatenacaoF</servlet-class>
+                            
+    
+    
+    </servlet>
+                
+    
+    
+    <servlet id="SAGE-callflow-servlet_main_29">
+                        
+        
+        <servlet-name>Valores</servlet-name>
+                        
+        
+        <servlet-class>flow.Valores</servlet-class>
+                    
+    
+    </servlet>
+            
+    
+    <servlet id="SAGE-callflow-servlet_Data_1">
+        <servlet-name>Data-Begin</servlet-name>
+        <servlet-class>flow.subflow.Data.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_Data_4">
+        <servlet-name>Data-SvlConcatenacaoData</servlet-name>
+        <servlet-class>flow.subflow.Data.SvlConcatenacaoData</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_Data_8">
+        <servlet-name>Data-DfnConcatenacaoData</servlet-name>
+        <servlet-class>flow.subflow.Data.DfnConcatenacaoData</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_Data_13">
+        <servlet-name>Data-End</servlet-name>
+        <servlet-class>flow.subflow.Data.End</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_35">
+        <servlet-name>Data2</servlet-name>
+        <servlet-class>flow.Data2</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_Data_15">
+        <servlet-name>Data-AnnConcatenacaoData</servlet-name>
+        <servlet-class>flow.subflow.Data.AnnConcatenacaoData</servlet-class>
+    </servlet>
+    
+    <servlet id="SAGE-callflow-servlet_main_49">
+        <servlet-name>Concat</servlet-name>
+        <servlet-class>flow.Concat</servlet-class>
+    </servlet>
+    <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-name>AvayaDefaultDisconnectHandler</servlet-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <url-pattern>/AvayaDefaultDisconnectHandler</url-pattern>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </servlet-mapping>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet-mapping id="avayadefaultexithandler-servletmapping">
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-name>AvayaDefaultExitHandler</servlet-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <url-pattern>/AvayaDefaultExitHandler</url-pattern>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </servlet-mapping>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet-mapping id="avayasessiontermination-servletmapping">
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-name>AvayaSessionTerminationServlet</servlet-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <url-pattern>/AvayaSessionTerminationServlet</url-pattern>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </servlet-mapping>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet-mapping id="CheckAdminVariableInfo-servletmapping">
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-name>CheckAdminVariableInfoServlet</servlet-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <url-pattern>/CheckAdminVariableInfo</url-pattern>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </servlet-mapping>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet-mapping id="avayareturnerrorhandler-servletmapping">
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-name>AvayaReturnErrorHandler</servlet-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <url-pattern>/AvayaReturnErrorHandler</url-pattern>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </servlet-mapping>
+                                                            
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet-mapping id="avayareturnerrorthrow-servletmapping">
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-name>AvayaReturnErrorThrow</servlet-name>
+                                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <url-pattern>/AvayaReturnErrorThrow</url-pattern>
+                                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </servlet-mapping>
+                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_1">
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-name>AppRoot</servlet-name>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <url-pattern>/AppRoot</url-pattern>
+                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </servlet-mapping>
+                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_12">
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-name>AppEnd</servlet-name>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <url-pattern>/AppEnd</url-pattern>
+                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </servlet-mapping>
+                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_0">
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <servlet-name>Start</servlet-name>
+                                                                                                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <url-pattern>/Start</url-pattern>
+                                                                                                    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </servlet-mapping>
+                                                
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_Valores_32">
+                                
+        
+        
+        <servlet-name>Valores-AnnConcatenacao</servlet-name>
+                                
+        
+        
+        <url-pattern>/Valores-AnnConcatenacao</url-pattern>
+                            
+    
+    
+    </servlet-mapping>
+                
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_Valores_1">
+                                
+        
+        
+        <servlet-name>Valores-Begin</servlet-name>
+                                
+        
+        
+        <url-pattern>/Valores-Begin</url-pattern>
+                            
+    
+    
+    </servlet-mapping>
+                
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_Valores_49">
+                                
+        
+        
+        <servlet-name>Valores-End</servlet-name>
+                                
+        
+        
+        <url-pattern>/Valores-End</url-pattern>
+                            
+    
+    
+    </servlet-mapping>
+                
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_Valores_36">
+                                
+        
+        
+        <servlet-name>Valores-DfnConcatenacao</servlet-name>
+                                
+        
+        
+        <url-pattern>/Valores-DfnConcatenacao</url-pattern>
+                            
+    
+    
+    </servlet-mapping>
+                
+    
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_Valores_29">
+                                
+        
+        
+        <servlet-name>Valores-SvlConcatenacaoF</servlet-name>
+                                
+        
+        
+        <url-pattern>/Valores-SvlConcatenacaoF</url-pattern>
+                            
+    
+    
+    </servlet-mapping>
+            
+    
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_29">
+                        
+        
+        <servlet-name>Valores</servlet-name>
+                        
+        
+        <url-pattern>/Valores</url-pattern>
+                    
+    
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_Data_1">
+        <servlet-name>Data-Begin</servlet-name>
+        <url-pattern>/Data-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_Data_4">
+        <servlet-name>Data-SvlConcatenacaoData</servlet-name>
+        <url-pattern>/Data-SvlConcatenacaoData</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_Data_8">
+        <servlet-name>Data-DfnConcatenacaoData</servlet-name>
+        <url-pattern>/Data-DfnConcatenacaoData</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_Data_13">
+        <servlet-name>Data-End</servlet-name>
+        <url-pattern>/Data-End</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_35">
+        <servlet-name>Data2</servlet-name>
+        <url-pattern>/Data2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_Data_15">
+        <servlet-name>Data-AnnConcatenacaoData</servlet-name>
+        <url-pattern>/Data-AnnConcatenacaoData</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_49">
+        <servlet-name>Concat</servlet-name>
+        <url-pattern>/Concat</url-pattern>
+    </servlet-mapping>
+                                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</web-app>
