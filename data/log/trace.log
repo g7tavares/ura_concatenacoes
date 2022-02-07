@@ -2008,3 +2008,217 @@ com.avaya.sce.runtimecommon.SCERuntimeException: Illegal phraseset phrase identi
 04/02/2022 15:22:20:432  INFO - 4EEEABC8FDADF09946B0A5931A19B582:/Concatenacoes : Using SCESession 4EEEABC8FDADF09946B0A5931A19B582:/Concatenacoes servlet : FPD_Parcelamento-End
 04/02/2022 15:22:20:496 DEBUG - 4EEEABC8FDADF09946B0A5931A19B582:/Concatenacoes : Subflow return node "FPD_Parcelamento-End" forwarding to "AppEnd"
 04/02/2022 15:22:20:497  INFO - 4EEEABC8FDADF09946B0A5931A19B582:/Concatenacoes : Using SCESession 4EEEABC8FDADF09946B0A5931A19B582:/Concatenacoes servlet : AppEnd
+04/02/2022 15:52:25:637  INFO - 4EEEABC8FDADF09946B0A5931A19B582:/Concatenacoes : HTTP Session lost removing SCESession 4EEEABC8FDADF09946B0A5931A19B582
+04/02/2022 15:52:25:640  INFO - 4EEEABC8FDADF09946B0A5931A19B582:/Concatenacoes : SCESession Removed
+04/02/2022 15:52:25:640 DEBUG - 4EEEABC8FDADF09946B0A5931A19B582:/Concatenacoes : Removing 1 session stack frames.
+04/02/2022 15:52:25:640  INFO - 4EEEABC8FDADF09946B0A5931A19B582:/Concatenacoes : ** Popped Stack Frame [/Concatenacoes]
+07/02/2022 16:18:14:122  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : SCESession bound to HttpSession 0BED44D0C2F1A8F484B510B2FA2C7AF8
+07/02/2022 16:18:14:154  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Browser Version 2.1.4, terminationURL enabled : true
+07/02/2022 16:18:14:198  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Using SCESession 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes servlet : Start
+07/02/2022 16:18:14:592  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : ** Pushed Stack Frame [/Concatenacoes]
+07/02/2022 16:18:14:606 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Not able to save posted variable information [call_classification]
+07/02/2022 16:18:14:606  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___sessionid to complex: session:sessionid  as [sess322178]
+07/02/2022 16:18:14:606  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___vpconverseondata to complex: session:vpconverseondata  as []
+07/02/2022 16:18:15:265  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : runtime_platform : Desktop
+07/02/2022 16:18:15:265  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : runtime_asr : Desktop Microsoft Speech SAPI
+07/02/2022 16:18:15:274 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Acquiring initial License
+07/02/2022 16:18:15:275  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Acquiring Desktop runtime license
+07/02/2022 16:18:15:275  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Runtime :true
+07/02/2022 16:18:15:275  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : IC :true
+07/02/2022 16:18:15:276  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : CTI :true
+07/02/2022 16:18:15:406 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Grace Period timer cleared
+07/02/2022 16:18:15:408 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : License refresh timer started
+07/02/2022 16:18:15:411  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : MessageType is speech
+07/02/2022 16:18:15:445  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Using SCESession 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes servlet : FPD
+07/02/2022 16:18:15:447  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :_sipcallid to simple: _sipcallid  as [unknown]
+07/02/2022 16:18:15:448  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :redirectinfo___presentationinfo to complex: redirectinfo:presentationinfo  as [undefined]
+07/02/2022 16:18:15:448  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :redirectinfo___reason to complex: redirectinfo:reason  as [unknown]
+07/02/2022 16:18:15:448  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :redirectinfo___screeninginfo to complex: redirectinfo:screeninginfo  as [undefined]
+07/02/2022 16:18:15:448  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :redirectinfo___uri to complex: redirectinfo:uri  as []
+07/02/2022 16:18:15:448  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___aai to complex: session:aai  as []
+07/02/2022 16:18:15:448  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___ani to complex: session:ani  as [undefined]
+07/02/2022 16:18:15:448  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___calltag to complex: session:calltag  as [unknown]
+07/02/2022 16:18:15:448  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___channel to complex: session:channel  as [0]
+07/02/2022 16:18:15:449  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___conversefirst to complex: session:conversefirst  as [unknown]
+07/02/2022 16:18:15:449  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___conversesecond to complex: session:conversesecond  as [unknown]
+07/02/2022 16:18:15:449  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___dnis to complex: session:dnis  as [undefined]
+07/02/2022 16:18:15:449  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___mediatype to complex: session:mediatype  as [unknown]
+07/02/2022 16:18:15:449  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___protocolname to complex: session:protocolname  as [pots]
+07/02/2022 16:18:15:449  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___protocolversion to complex: session:protocolversion  as [1]
+07/02/2022 16:18:15:449  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___sessionlabel to complex: session:sessionlabel  as [undefined]
+07/02/2022 16:18:15:450  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___sharedmode to complex: session:sharedmode  as [shared]
+07/02/2022 16:18:15:450  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___ucid to complex: session:ucid  as [undefined]
+07/02/2022 16:18:15:450  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___uui to complex: session:uui  as [unknown]
+07/02/2022 16:18:15:450  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___videobitrate to complex: session:videobitrate  as [unknown]
+07/02/2022 16:18:15:450  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___videocodec to complex: session:videocodec  as [unknown]
+07/02/2022 16:18:15:450  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___videoenabled to complex: session:videoenabled  as [unknown]
+07/02/2022 16:18:15:451  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___videofarfmtp to complex: session:videofarfmtp  as [unknown]
+07/02/2022 16:18:15:451  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___videoformat to complex: session:videoformat  as [unknown]
+07/02/2022 16:18:15:451  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___videofps to complex: session:videofps  as [unknown]
+07/02/2022 16:18:15:451  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___videoheight to complex: session:videoheight  as [unknown]
+07/02/2022 16:18:15:451  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___videonearfmtp to complex: session:videonearfmtp  as [unknown]
+07/02/2022 16:18:15:451  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___videowidth to complex: session:videowidth  as [unknown]
+07/02/2022 16:18:15:452  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___vpcalledextension to complex: session:vpcalledextension  as [unknown]
+07/02/2022 16:18:15:452  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___vpcoveragereason to complex: session:vpcoveragereason  as [unknown]
+07/02/2022 16:18:15:452  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___vpcoveragetype to complex: session:vpcoveragetype  as [unknown]
+07/02/2022 16:18:15:452  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :session___vprdnis to complex: session:vprdnis  as [unknown]
+07/02/2022 16:18:15:452  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :shareduui___id to complex: shareduui:id  as [unknown]
+07/02/2022 16:18:15:452  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Storing :shareduui___value to complex: shareduui:value  as [unknown]
+07/02/2022 16:18:15:517  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Using SCESession 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes servlet : FPD-Begin
+07/02/2022 16:18:15:573  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Using SCESession 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes servlet : FPD-SvlFPD
+07/02/2022 16:18:15:633  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : ##################################################
+07/02/2022 16:18:15:634 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : url 127.0.0.1
+07/02/2022 16:18:15:634 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : porta 8080
+07/02/2022 16:18:15:634 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : fonoteca http://127.0.0.1:8080/frases/
+07/02/2022 16:18:15:634 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : tomcat C:\Users\guilherme.tavares\workspace3\Concatenacoes\data\temp
+07/02/2022 16:18:15:634 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : tomcat2 http://localhost:8080/Concatenacoes/FPD-SvlFPD
+07/02/2022 16:18:15:635 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : reais 149
+07/02/2022 16:18:15:635 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : centavos 85
+07/02/2022 16:18:15:635 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : digitoCentena 1
+07/02/2022 16:18:15:635 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : fraseCentena 100e_NF.wav
+07/02/2022 16:18:15:635 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : restante 49
+07/02/2022 16:18:15:635 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : 85
+07/02/2022 16:18:15:635 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : lista: [http://127.0.0.1:8080/frases/Fpd_a.wav, http://127.0.0.1:8080/frases/100e_NF.wav, http://127.0.0.1:8080/frases/49Reais_NF.wav, http://127.0.0.1:8080/frases/e85centavos_F.wav]
+07/02/2022 16:18:15:635 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : audioVencimento 27_Novembro_F.wav
+07/02/2022 16:18:15:638  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : ##################################################
+07/02/2022 16:18:15:640  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Using SCESession 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes servlet : FPD-DfnConcatenacao
+07/02/2022 16:18:15:715  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Incrementing [Indice(L)]
+07/02/2022 16:18:15:731 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | INDICE | Indice(L) : 1
+07/02/2022 16:18:15:732 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | FRASE NESTE INDICE | CONCATENACAO : http://127.0.0.1:8080/frases/Fpd_a.wav
+07/02/2022 16:18:15:732 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | --------------------------------------------------
+07/02/2022 16:18:15:732  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Incrementing [Indice(L)]
+07/02/2022 16:18:15:732 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | INDICE | Indice(L) : 2
+07/02/2022 16:18:15:732 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | FRASE NESTE INDICE | CONCATENACAO : http://127.0.0.1:8080/frases/100e_NF.wav
+07/02/2022 16:18:15:733 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | --------------------------------------------------
+07/02/2022 16:18:15:733  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Incrementing [Indice(L)]
+07/02/2022 16:18:15:733 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | INDICE | Indice(L) : 3
+07/02/2022 16:18:15:733 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | FRASE NESTE INDICE | CONCATENACAO : http://127.0.0.1:8080/frases/49Reais_NF.wav
+07/02/2022 16:18:15:733 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | --------------------------------------------------
+07/02/2022 16:18:15:733  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Incrementing [Indice(L)]
+07/02/2022 16:18:15:733 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | INDICE | Indice(L) : 4
+07/02/2022 16:18:15:733 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | FRASE NESTE INDICE | CONCATENACAO : http://127.0.0.1:8080/frases/e85centavos_F.wav
+07/02/2022 16:18:15:733 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | --------------------------------------------------
+07/02/2022 16:18:15:733  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Incrementing [Indice(L)]
+07/02/2022 16:18:15:733 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | INDICE | Indice(L) : 5
+07/02/2022 16:18:15:734 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | FRASE NESTE INDICE | CONCATENACAO : http://127.0.0.1:8080/frases/Fpd_b.wav
+07/02/2022 16:18:15:734 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | --------------------------------------------------
+07/02/2022 16:18:15:734  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Incrementing [Indice(L)]
+07/02/2022 16:18:15:734 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | INDICE | Indice(L) : 6
+07/02/2022 16:18:15:734 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | FRASE NESTE INDICE | CONCATENACAO : http://127.0.0.1:8080/frases/27_Novembro_F.wav
+07/02/2022 16:18:15:734 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | --------------------------------------------------
+07/02/2022 16:18:15:734  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Incrementing [Indice(L)]
+07/02/2022 16:18:15:734 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | INDICE | Indice(L) : 7
+07/02/2022 16:18:15:734 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | FRASE NESTE INDICE | CONCATENACAO : http://127.0.0.1:8080/frases/Fpd_c.wav
+07/02/2022 16:18:15:734 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : session id:sess322178 | Concatenacoes:FPD-DfnConcatenacao | --------------------------------------------------
+07/02/2022 16:18:15:736  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Using SCESession 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes servlet : FPD-AnnConcatenacao
+07/02/2022 16:18:16:000  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Using SCESession 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes servlet : FPD-End
+07/02/2022 16:18:16:068 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Subflow return node "FPD-End" forwarding to "AppEnd"
+07/02/2022 16:18:16:071  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Using SCESession 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes servlet : AppEnd
+07/02/2022 16:19:36:189  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : HTTP Session lost removing SCESession 0BED44D0C2F1A8F484B510B2FA2C7AF8
+07/02/2022 16:19:36:189  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : SCESession Removed
+07/02/2022 16:19:36:190 DEBUG - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : Removing 1 session stack frames.
+07/02/2022 16:19:36:190  INFO - 0BED44D0C2F1A8F484B510B2FA2C7AF8:/Concatenacoes : ** Popped Stack Frame [/Concatenacoes]
+07/02/2022 16:19:40:813  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : SCESession bound to HttpSession 3CA7DEB43BF2FCBF25CAB2F62158C2D2
+07/02/2022 16:19:40:814  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Browser Version 2.1.4, terminationURL enabled : true
+07/02/2022 16:19:40:818  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Using SCESession 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes servlet : Start
+07/02/2022 16:19:40:899  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : ** Pushed Stack Frame [/Concatenacoes]
+07/02/2022 16:19:40:918 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Not able to save posted variable information [call_classification]
+07/02/2022 16:19:40:918  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___sessionid to complex: session:sessionid  as [sess7483330]
+07/02/2022 16:19:40:919  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___vpconverseondata to complex: session:vpconverseondata  as []
+07/02/2022 16:19:41:580  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : runtime_platform : Desktop
+07/02/2022 16:19:41:580  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : runtime_asr : Desktop Microsoft Speech SAPI
+07/02/2022 16:19:41:583  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : MessageType is speech
+07/02/2022 16:19:41:598  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Using SCESession 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes servlet : FPD_Parcelamento
+07/02/2022 16:19:41:599  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :_sipcallid to simple: _sipcallid  as [unknown]
+07/02/2022 16:19:41:600  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :redirectinfo___presentationinfo to complex: redirectinfo:presentationinfo  as [undefined]
+07/02/2022 16:19:41:600  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :redirectinfo___reason to complex: redirectinfo:reason  as [unknown]
+07/02/2022 16:19:41:600  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :redirectinfo___screeninginfo to complex: redirectinfo:screeninginfo  as [undefined]
+07/02/2022 16:19:41:600  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :redirectinfo___uri to complex: redirectinfo:uri  as []
+07/02/2022 16:19:41:600  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___aai to complex: session:aai  as []
+07/02/2022 16:19:41:600  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___ani to complex: session:ani  as [undefined]
+07/02/2022 16:19:41:600  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___calltag to complex: session:calltag  as [unknown]
+07/02/2022 16:19:41:600  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___channel to complex: session:channel  as [0]
+07/02/2022 16:19:41:601  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___conversefirst to complex: session:conversefirst  as [unknown]
+07/02/2022 16:19:41:601  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___conversesecond to complex: session:conversesecond  as [unknown]
+07/02/2022 16:19:41:601  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___dnis to complex: session:dnis  as [undefined]
+07/02/2022 16:19:41:601  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___mediatype to complex: session:mediatype  as [unknown]
+07/02/2022 16:19:41:601  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___protocolname to complex: session:protocolname  as [pots]
+07/02/2022 16:19:41:601  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___protocolversion to complex: session:protocolversion  as [1]
+07/02/2022 16:19:41:601  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___sessionlabel to complex: session:sessionlabel  as [undefined]
+07/02/2022 16:19:41:601  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___sharedmode to complex: session:sharedmode  as [shared]
+07/02/2022 16:19:41:601  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___ucid to complex: session:ucid  as [undefined]
+07/02/2022 16:19:41:601  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___uui to complex: session:uui  as [unknown]
+07/02/2022 16:19:41:601  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___videobitrate to complex: session:videobitrate  as [unknown]
+07/02/2022 16:19:41:601  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___videocodec to complex: session:videocodec  as [unknown]
+07/02/2022 16:19:41:601  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___videoenabled to complex: session:videoenabled  as [unknown]
+07/02/2022 16:19:41:602  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___videofarfmtp to complex: session:videofarfmtp  as [unknown]
+07/02/2022 16:19:41:602  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___videoformat to complex: session:videoformat  as [unknown]
+07/02/2022 16:19:41:602  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___videofps to complex: session:videofps  as [unknown]
+07/02/2022 16:19:41:602  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___videoheight to complex: session:videoheight  as [unknown]
+07/02/2022 16:19:41:602  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___videonearfmtp to complex: session:videonearfmtp  as [unknown]
+07/02/2022 16:19:41:602  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___videowidth to complex: session:videowidth  as [unknown]
+07/02/2022 16:19:41:602  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___vpcalledextension to complex: session:vpcalledextension  as [unknown]
+07/02/2022 16:19:41:602  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___vpcoveragereason to complex: session:vpcoveragereason  as [unknown]
+07/02/2022 16:19:41:602  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___vpcoveragetype to complex: session:vpcoveragetype  as [unknown]
+07/02/2022 16:19:41:602  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :session___vprdnis to complex: session:vprdnis  as [unknown]
+07/02/2022 16:19:41:603  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :shareduui___id to complex: shareduui:id  as [unknown]
+07/02/2022 16:19:41:603  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Storing :shareduui___value to complex: shareduui:value  as [unknown]
+07/02/2022 16:19:41:662  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Using SCESession 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes servlet : FPD_Parcelamento-Begin
+07/02/2022 16:19:41:726  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Using SCESession 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes servlet : FPD_Parcelamento-SvlFPD_Parcelamento
+07/02/2022 16:19:41:785  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : ##################################################
+07/02/2022 16:19:41:785 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : url 127.0.0.1
+07/02/2022 16:19:41:785 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : porta 8080
+07/02/2022 16:19:41:785 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : fonoteca http://127.0.0.1:8080/frases/
+07/02/2022 16:19:41:785 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : tomcat C:\Users\guilherme.tavares\workspace3\Concatenacoes\data\temp
+07/02/2022 16:19:41:785 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : tomcat2 http://localhost:8080/Concatenacoes/FPD_Parcelamento-SvlFPD_Parcelamento
+07/02/2022 16:19:41:785 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : reais 149
+07/02/2022 16:19:41:786 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : centavos 85
+07/02/2022 16:19:41:786 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : digitoCentena 1
+07/02/2022 16:19:41:786 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : fraseCentena 100e_NF.wav
+07/02/2022 16:19:41:786 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : restante 49
+07/02/2022 16:19:41:786 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : 85
+07/02/2022 16:19:41:786 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : lista: [http://127.0.0.1:8080/frases/Fpd_parcelamento_a.wav, http://127.0.0.1:8080/frases/100e_NF.wav, http://127.0.0.1:8080/frases/49Reais_NF.wav, http://127.0.0.1:8080/frases/e85centavos_F.wav]
+07/02/2022 16:19:41:786 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : audioVencimento 27_Novembro_F.wav
+07/02/2022 16:19:41:789  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : ##################################################
+07/02/2022 16:19:41:792  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Using SCESession 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes servlet : FPD_Parcelamento-DfnConcatenacao
+07/02/2022 16:19:41:864  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Incrementing [Indice(L)]
+07/02/2022 16:19:41:866 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | INDICE | Indice(L) : 1
+07/02/2022 16:19:41:866 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | FRASE NESTE INDICE | CONCATENACAO : http://127.0.0.1:8080/frases/Fpd_parcelamento_a.wav
+07/02/2022 16:19:41:867 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | --------------------------------------------------
+07/02/2022 16:19:41:867  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Incrementing [Indice(L)]
+07/02/2022 16:19:41:867 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | INDICE | Indice(L) : 2
+07/02/2022 16:19:41:867 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | FRASE NESTE INDICE | CONCATENACAO : http://127.0.0.1:8080/frases/100e_NF.wav
+07/02/2022 16:19:41:867 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | --------------------------------------------------
+07/02/2022 16:19:41:867  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Incrementing [Indice(L)]
+07/02/2022 16:19:41:867 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | INDICE | Indice(L) : 3
+07/02/2022 16:19:41:868 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | FRASE NESTE INDICE | CONCATENACAO : http://127.0.0.1:8080/frases/49Reais_NF.wav
+07/02/2022 16:19:41:868 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | --------------------------------------------------
+07/02/2022 16:19:41:868  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Incrementing [Indice(L)]
+07/02/2022 16:19:41:868 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | INDICE | Indice(L) : 4
+07/02/2022 16:19:41:868 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | FRASE NESTE INDICE | CONCATENACAO : http://127.0.0.1:8080/frases/e85centavos_F.wav
+07/02/2022 16:19:41:868 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | --------------------------------------------------
+07/02/2022 16:19:41:869  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Incrementing [Indice(L)]
+07/02/2022 16:19:41:869 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | INDICE | Indice(L) : 5
+07/02/2022 16:19:41:869 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | FRASE NESTE INDICE | CONCATENACAO : http://127.0.0.1:8080/frases/Fpd_parcelamento_b.wav
+07/02/2022 16:19:41:869 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | --------------------------------------------------
+07/02/2022 16:19:41:869  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Incrementing [Indice(L)]
+07/02/2022 16:19:41:869 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | INDICE | Indice(L) : 6
+07/02/2022 16:19:41:869 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | FRASE NESTE INDICE | CONCATENACAO : http://127.0.0.1:8080/frases/27_Novembro_F.wav
+07/02/2022 16:19:41:869 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | --------------------------------------------------
+07/02/2022 16:19:41:870  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Incrementing [Indice(L)]
+07/02/2022 16:19:41:870 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | INDICE | Indice(L) : 7
+07/02/2022 16:19:41:870 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | FRASE NESTE INDICE | CONCATENACAO : http://127.0.0.1:8080/frases/Fpd_parcelamento_c.wav
+07/02/2022 16:19:41:870 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : session id:sess7483330 | Concatenacoes:FPD_Parcelamento-DfnConcatenacao | --------------------------------------------------
+07/02/2022 16:19:41:871  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Using SCESession 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes servlet : FPD_Parcelamento-AnnConcatenacao
+07/02/2022 16:19:42:071  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Using SCESession 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes servlet : FPD_Parcelamento-End
+07/02/2022 16:19:42:128 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Subflow return node "FPD_Parcelamento-End" forwarding to "AppEnd"
+07/02/2022 16:19:42:130  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Using SCESession 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes servlet : AppEnd
+07/02/2022 16:20:17:489  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Removing session from AvayaSessionTermination Servlet
+07/02/2022 16:20:17:490  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Termination URL reply : <?xml version="1.0" encoding="UTF-8"?>
+<vxml version="2.1" xmlns="http://www.w3.org/2001/vxml" xml:lang="en-us">
+</vxml>
+
+07/02/2022 16:20:17:491  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : HTTP Session lost removing SCESession 3CA7DEB43BF2FCBF25CAB2F62158C2D2
+07/02/2022 16:20:17:491  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : SCESession Removed
+07/02/2022 16:20:17:491 DEBUG - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : Removing 1 session stack frames.
+07/02/2022 16:20:17:491  INFO - 3CA7DEB43BF2FCBF25CAB2F62158C2D2:/Concatenacoes : ** Popped Stack Frame [/Concatenacoes]
