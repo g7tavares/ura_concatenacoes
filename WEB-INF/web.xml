@@ -1622,6 +1622,30 @@ Copyright 2004-2019 Avaya Inc.
         <servlet-name>FPD-AnnConcatenacao</servlet-name>
         <servlet-class>flow.subflow.FPD.AnnConcatenacao</servlet-class>
     </servlet>
+    <servlet id="SAGE-callflow-servlet_Chuta_Passos_1">
+        <servlet-name>Chuta_Passos-Begin</servlet-name>
+        <servlet-class>flow.subflow.Chuta_Passos.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_Chuta_Passos_18">
+        <servlet-name>Chuta_Passos-AnnConcatenacao</servlet-name>
+        <servlet-class>flow.subflow.Chuta_Passos.AnnConcatenacao</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_Chuta_Passos_4">
+        <servlet-name>Chuta_Passos-End</servlet-name>
+        <servlet-class>flow.subflow.Chuta_Passos.End</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_Chuta_Passos_5">
+        <servlet-name>Chuta_Passos-DfnConcatenacao</servlet-name>
+        <servlet-class>flow.subflow.Chuta_Passos.DfnConcatenacao</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_Chuta_Passos_15">
+        <servlet-name>Chuta_Passos-SvlChute</servlet-name>
+        <servlet-class>flow.subflow.Chuta_Passos.SvlChute</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_79">
+        <servlet-name>Chuta_Passos</servlet-name>
+        <servlet-class>flow.Chuta_Passos</servlet-class>
+    </servlet>
     <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
                                                                                                                         
         
@@ -2308,6 +2332,30 @@ Copyright 2004-2019 Avaya Inc.
     <servlet-mapping id="SAGE-callflow-servletmapping_FPD_95">
         <servlet-name>FPD-AnnConcatenacao</servlet-name>
         <url-pattern>/FPD-AnnConcatenacao</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_Chuta_Passos_1">
+        <servlet-name>Chuta_Passos-Begin</servlet-name>
+        <url-pattern>/Chuta_Passos-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_Chuta_Passos_18">
+        <servlet-name>Chuta_Passos-AnnConcatenacao</servlet-name>
+        <url-pattern>/Chuta_Passos-AnnConcatenacao</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_Chuta_Passos_4">
+        <servlet-name>Chuta_Passos-End</servlet-name>
+        <url-pattern>/Chuta_Passos-End</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_Chuta_Passos_5">
+        <servlet-name>Chuta_Passos-DfnConcatenacao</servlet-name>
+        <url-pattern>/Chuta_Passos-DfnConcatenacao</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_Chuta_Passos_15">
+        <servlet-name>Chuta_Passos-SvlChute</servlet-name>
+        <url-pattern>/Chuta_Passos-SvlChute</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_79">
+        <servlet-name>Chuta_Passos</servlet-name>
+        <url-pattern>/Chuta_Passos</url-pattern>
     </servlet-mapping>
                                                             
 
