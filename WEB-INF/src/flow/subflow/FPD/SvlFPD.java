@@ -122,7 +122,11 @@ public class SvlFPD extends com.avaya.sce.runtime.BasicServlet {
 					String restante = reais.substring(1);
 					traceOutput.writeln(ITraceInfo.TRACE_LEVEL_DEBUG, "restante " + restante);
 
-					lista.add(fonoteca + restante + "Reais_NF.wav");
+					int resto = Integer.valueOf(restante);
+					traceOutput.writeln(ITraceInfo.TRACE_LEVEL_DEBUG, "resto " + resto);
+
+					
+					lista.add(fonoteca + resto + "Reais_NF.wav");
 				}
 
 				break;
