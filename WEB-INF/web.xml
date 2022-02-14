@@ -1643,8 +1643,32 @@ Copyright 2004-2019 Avaya Inc.
         <servlet-class>flow.subflow.Chuta_Passos.SvlChute</servlet-class>
     </servlet>
     <servlet id="SAGE-callflow-servlet_main_79">
-        <servlet-name>Chuta_Passos</servlet-name>
-        <servlet-class>flow.Chuta_Passos</servlet-class>
+        <servlet-name>ChutePassos_Passo1</servlet-name>
+        <servlet-class>flow.ChutePassos_Passo1</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ChutePassos_Passo2_32">
+        <servlet-name>ChutePassos_Passo2-End</servlet-name>
+        <servlet-class>flow.subflow.ChutePassos_Passo2.End</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ChutePassos_Passo2_1">
+        <servlet-name>ChutePassos_Passo2-Begin</servlet-name>
+        <servlet-class>flow.subflow.ChutePassos_Passo2.Begin</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ChutePassos_Passo2_33">
+        <servlet-name>ChutePassos_Passo2-DfnConcatenacao</servlet-name>
+        <servlet-class>flow.subflow.ChutePassos_Passo2.DfnConcatenacao</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ChutePassos_Passo2_25">
+        <servlet-name>ChutePassos_Passo2-SvlChutePassos2</servlet-name>
+        <servlet-class>flow.subflow.ChutePassos_Passo2.SvlChutePassos2</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_ChutePassos_Passo2_28">
+        <servlet-name>ChutePassos_Passo2-AnnConcatenacao</servlet-name>
+        <servlet-class>flow.subflow.ChutePassos_Passo2.AnnConcatenacao</servlet-class>
+    </servlet>
+    <servlet id="SAGE-callflow-servlet_main_88">
+        <servlet-name>ChutePassos_Passo2</servlet-name>
+        <servlet-class>flow.ChutePassos_Passo2</servlet-class>
     </servlet>
     <servlet-mapping id="avayadefaultdisconnecthandler-servletmapping">
                                                                                                                         
@@ -2354,8 +2378,32 @@ Copyright 2004-2019 Avaya Inc.
         <url-pattern>/Chuta_Passos-SvlChute</url-pattern>
     </servlet-mapping>
     <servlet-mapping id="SAGE-callflow-servletmapping_main_79">
-        <servlet-name>Chuta_Passos</servlet-name>
-        <url-pattern>/Chuta_Passos</url-pattern>
+        <servlet-name>ChutePassos_Passo1</servlet-name>
+        <url-pattern>/ChutePassos_Passo1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ChutePassos_Passo2_32">
+        <servlet-name>ChutePassos_Passo2-End</servlet-name>
+        <url-pattern>/ChutePassos_Passo2-End</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ChutePassos_Passo2_1">
+        <servlet-name>ChutePassos_Passo2-Begin</servlet-name>
+        <url-pattern>/ChutePassos_Passo2-Begin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ChutePassos_Passo2_33">
+        <servlet-name>ChutePassos_Passo2-DfnConcatenacao</servlet-name>
+        <url-pattern>/ChutePassos_Passo2-DfnConcatenacao</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ChutePassos_Passo2_25">
+        <servlet-name>ChutePassos_Passo2-SvlChutePassos2</servlet-name>
+        <url-pattern>/ChutePassos_Passo2-SvlChutePassos2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_ChutePassos_Passo2_28">
+        <servlet-name>ChutePassos_Passo2-AnnConcatenacao</servlet-name>
+        <url-pattern>/ChutePassos_Passo2-AnnConcatenacao</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping id="SAGE-callflow-servletmapping_main_88">
+        <servlet-name>ChutePassos_Passo2</servlet-name>
+        <url-pattern>/ChutePassos_Passo2</url-pattern>
     </servlet-mapping>
                                                             
 

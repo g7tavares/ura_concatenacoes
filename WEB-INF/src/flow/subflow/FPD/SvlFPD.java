@@ -164,20 +164,28 @@ public class SvlFPD extends com.avaya.sce.runtime.BasicServlet {
 				retorno = "100e_NF.wav";
 				break;
 			case '2':
+				retorno = "200e_NF.wav";
 				break;
 			case '3':
+				retorno = "300e_NF.wav";
 				break;
 			case '4':
+				retorno = "400e_NF.wav";
 				break;
 			case '5':
+				retorno = "500e_NF.wav";
 				break;
 			case '6':
+				retorno = "600e_NF.wav";
 				break;
 			case '7':
+				retorno = "700e_NF.wav";
 				break;
 			case '8':
+				retorno = "800e_NF.wav";
 				break;
 			case '9':
+				retorno = "900e_NF.wav";
 				break;
 		}
 
