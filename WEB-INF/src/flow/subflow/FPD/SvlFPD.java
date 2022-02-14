@@ -83,6 +83,7 @@ public class SvlFPD extends com.avaya.sce.runtime.BasicServlet {
 			String[] partesValor = valor.split("\\.");
 
 			String reais = partesValor[0];
+			int numReais = Integer.parseInt(reais);
 			traceOutput.writeln(ITraceInfo.TRACE_LEVEL_DEBUG, "reais " + reais);
 
 			String centavos = partesValor[1];
@@ -102,7 +103,14 @@ public class SvlFPD extends com.avaya.sce.runtime.BasicServlet {
 				break;
 			case 3:
 
-				if (reais.equalsIgnoreCase("100")) {
+				if (numReais == 100 || numReais == 200 || numReais == 300 || numReais == 400 || numReais == 500 || numReais == 600 || numReais == 700 || numReais == 800 || numReais == 900) {
+					char digitoCem = reais.charAt(0);
+					traceOutput.writeln(ITraceInfo.TRACE_LEVEL_DEBUG, "digitoCem " + digitoCem);
+
+					String fraseCem = fraseCem(digitoCem);
+					traceOutput.writeln(ITraceInfo.TRACE_LEVEL_DEBUG, "digitoCem " + fraseCem);
+					lista.add(fonoteca + fraseCem);
+					
 				} else {
 					char digitoCentena = reais.charAt(0);
 					traceOutput.writeln(ITraceInfo.TRACE_LEVEL_DEBUG, "digitoCentena " + digitoCentena);
@@ -245,6 +253,42 @@ public class SvlFPD extends com.avaya.sce.runtime.BasicServlet {
 		}
 
 //		System.out.println("retorno "+ retorno);
+
+		return retorno;
+	}
+	
+	public static String fraseCem(char digito) {
+		String retorno = "";
+
+		switch (digito) {
+		case '1':
+			retorno = "100Reais_NF.wav";
+			break;
+		case '2':
+			retorno = "200Reais_NF.wav";
+			break;
+		case '3':
+			retorno = "300Reais_NF.wav";
+			break;
+		case '4':
+			retorno = "400Reais_NF.wav";
+			break;
+		case '5':
+			retorno = "500Reais_NF.wav";
+			break;
+		case '6':
+			retorno = "600Reais_NF.wav";
+			break;
+		case '7':
+			retorno = "700Reais_NF.wav";
+			break;
+		case '8':
+			retorno = "800Reais_NF.wav";
+			break;
+		case '9':
+			retorno = "900Reais_NF.wav";
+			break;
+		}
 
 		return retorno;
 	}
